@@ -13,10 +13,20 @@ This version of the API does not require authentication.
 Errors are returned as JSON objects in the following format:
 
 
-The API will return three error types when requests fail:
-- 400: Bad request
-- 404: Resource not found
+The API will return three error types when requests fail:   
+- 400: Bad request  
+- 404: Resource not found  
 - 422: Unprocessable entity
+- 500: Internal server error
+
+```json
+{
+  "success": False,
+  "error": 404,
+  "message": "Resource not found"
+}
+```
+
 
 ## Endpoints
 

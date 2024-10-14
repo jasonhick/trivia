@@ -1,8 +1,14 @@
 # Backend - Trivia API
 
+## API Documentation
+
+View the API documentation [here](./DOCUMENTATION.md).
+
 ## Setting up the Backend
 
 ### Install Dependencies
+
+**NOTE:** The project requires Python 3.10 or higher.
 
 1. **Python 3.10** - Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
@@ -38,7 +44,7 @@ psql trivia < trivia.psql
 
 ### Run the Server
 
-From within the `./src` directory first ensure you are working using your created virtual environment.
+From within the `./backend` directory first ensure you are working using your created virtual environment.
 
 To run the server, execute:
 
