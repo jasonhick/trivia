@@ -3,6 +3,9 @@ from flask import Flask, request, abort, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 import random
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from models import setup_db, Question, Category
 
